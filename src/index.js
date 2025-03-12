@@ -16,7 +16,7 @@ const express = require('express');
     })
 
     app.get('/', async (req, res) => {
-        const response = { 'message': "API esta atualizada!", 'request_id': i }
+        const response = { 'message': "API esta atualizada e rodando!", 'request_id': i }
         console.log(response)
         res.send(response)
     })
